@@ -1,0 +1,66 @@
+.navb {
+    background: #39c9ed;
+}
+.floatr {
+    margin-left: 70%;
+}
+.white {
+    color: aliceblue !important;
+    font-weight: bold;
+}
+.height {
+    height: 1000px !important;
+}
+.content {
+    height: auto !important; 
+}
+.header {
+    width: 100%;
+    margin: 0 !important;
+}
+.date {
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+.pKiri, .pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(150deg); 
+    transform-origin: left top;
+    transition: 1s;
+}
+.img {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(720deg); 
+    transform-origin: center;
+    transition: 2s;
+}
+
+.pbawah {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1.5s;
+}
+
+.pKanan {
+    transform: translate(-50px, 0) rotate(30deg);;
+}
+
+.content .bawah {
+    opacity: 0;
+    transform: translate(0,-50px);
+    transition: 1s;
+}
+.content .bawah.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul, .img.pMuncul, .pbawah.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.bod {
+    box-shadow: 5px 5px 7px rgb(110, 90, 90);
+}
